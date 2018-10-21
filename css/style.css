@@ -27,10 +27,11 @@ body {
   color: #ffffff;
   padding: 100px;
   margin: -25px;
-  margin-top: -55px;
+  margin-top: -55px; width:90%;
 }
 
 .content h1 {
+  
   font-size: 100px;
   text-align: center;
   font-family: 'Markazi Text', serif;
@@ -55,15 +56,19 @@ body {
 /* Styles For Demo Purposes Only*/
 
 
-nav {
+ul {
   text-align: center; 
-  padding-top: 30px;
+  padding-top: 0;
   float: right;
   padding-right: 30px;
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
-  
+  list-style-type: none; 
 }
+
+li{display:inline;}
+
+.nav-bar{position:fixed; top:0;right:0;z-index:400;}
 
 .nav-bar a{
    color: white;
@@ -89,8 +94,7 @@ header {
   padding: 20px 0 14px 20px;
 }
 
-
-
+main{width:100%;}
 
 main p {
   padding: 0 0 100px 50px;
@@ -98,4 +102,15 @@ main p {
 
 main a {
   float: right;
+}
+
+
+@media screen and (max-width: 800px) {
+  main {
+    width: 90%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .content h1 {font-size: 50px;}
+  .content{width:100%; padding:10%;height: 100%;}
+  .nav-bar{align-content: right;}
+  
 }
