@@ -8,6 +8,7 @@ body {
 #parallax-container {
   display: block;
   height: 750px;
+  margin-top: 50px;
 }
 
 #parallax-container div {
@@ -19,20 +20,82 @@ body {
   width: 100%;
 }
 
-#content {
+
+.content {
   position: relative;
   background-color: #030f33;
   color: #ffffff;
   padding: 100px;
+  margin: -25px;
+  margin-top: -55px;
 }
 
-#content h1 {
+.content h1 {
   font-size: 100px;
   text-align: center;
   font-family: 'Markazi Text', serif;
 }
 
-#content p {
+.content p {
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
+  text-align: justify;
+}
+
+
+
+
+.anchor {
+  display: block;
+  height: 120px;
+  /*same height as header*/
+  margin-top: -120px;
+  /*same height as header*/
+}
+/* Styles For Demo Purposes Only*/
+
+
+nav {
+  text-align: center; 
+  padding-top: 30px;
+  float: right;
+  padding-right: 30px;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+.nav-bar a{
+   color: white;
+ }
+
+a {
+  color:white;
+  text-decoration: none;
+  padding: 10px 14px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.top{position:fixed; bottom: 0; right: 0;}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  padding: 20px 0 14px 20px;
+}
+
+
+
+
+main p {
+  padding: 0 0 100px 50px;
+}
+
+main a {
+  float: right;
 }
