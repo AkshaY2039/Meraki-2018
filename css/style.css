@@ -64,34 +64,42 @@ ul {
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
   list-style-type: none; 
+  
 }
 
 li{display:inline;}
 
-.nav-bar{position:fixed; top:0;right:0;z-index:400;}
+.nav-bar{position:fixed; top:0;right:0;z-index:400; padding: -20px; width:100%; background-color: #030f33;}
 
 .nav-bar a{
    color: white;
+   
  }
 
 a {
   color:white;
   text-decoration: none;
-  padding: 10px 14px;
+  padding: 5px 10px;
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
 }
 
-.top{position:fixed; bottom: 0; right: 0;}
+.top{position:fixed; bottom: 0; right: 0;background-color: #030f33;width: 100%;text-align: right;}
 
 a:hover {
   text-decoration: underline;
 }
 
+a:active{
+  text-decoration: underline;
+  color:#85a0f2;
+}
+
 header {
-  width: 100%;
-  height: 100px;
+  
+  height: 50px;
   padding: 20px 0 14px 20px;
+  
 }
 
 main{width:100%;}
@@ -109,6 +117,7 @@ main a {
   main {
     width: 90%; /* The width is 100%, when the viewport is 800px or smaller */
   }
+  
   .content h1 {font-size: 50px;}
   .content{width:100%; padding:10%;height: 100%;}
   .nav-bar{align-content: right;}
