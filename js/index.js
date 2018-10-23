@@ -24,7 +24,6 @@ $(function() {
   });
 });
 
-<<<<<<< HEAD
 $(window).scroll(function() {
 // 100 = The point you would like to fade the nav in.
   
@@ -47,6 +46,4 @@ $('.scroll').on('click', function(e){
     }, 1500);
 });
 
-=======
->>>>>>> 5f4feab289ba64af6c12784fd8de6e68511d5f51
 
