@@ -299,7 +299,6 @@ body {
   top: 0;
   background-position: center !important;
   transform: translateY(0px);
-  height: 750px;
   width: 100%;
   
 }
@@ -311,7 +310,7 @@ body {
   color: #ffffff;
   padding: 100px;
   margin: -25px;
-  margin-top: -55px; max-width:90%;
+  margin-top: -55px; max-width:100%;
 }
 
 .content h1 {
@@ -397,7 +396,7 @@ header {
   
 }
 
-main{max-width:98%;}
+main{max-width:100%;}
 
 main p {
   padding: 0 0 100px 50px;
