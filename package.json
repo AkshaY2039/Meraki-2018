@@ -1,0 +1,23 @@
+{
+  "name": "meraki",
+  "version": "1.0.0",
+  "description": "Website for Intra Institute Cultural Fest of IIITDM Kancheepuram - Meraki 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkshaY2039/Meraki-2018.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkshaY2039/Meraki-2018/issues"
+  },
+  "homepage": "https://github.com/AkshaY2039/Meraki-2018#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
