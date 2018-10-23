@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text|Raleway');
+
+body {
+    background: rgba(240, 235, 215, .5);
+    font-family: 'Raleway', sans-serif;
+  }
+  .container {
+    text-align: center;
+  }
+  .container div {
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 300px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 7px;
+    margin: 35px 20px;
+    transition: 0.7s all cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    box-shadow: 0 50px 150px -20px rgba(0, 0, 0, .75);
+  }
+
+  body h1{
+   text-align: center;
+   font-size: 4rem;
+   font-family: 'Markazi Text', serif;
+   color: #030f33;
+  }
+
+  body p{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;   
+  }
+  .container #decor{
+    background-image: url(https://pp.vk.me/X4GW9k3DbqGLK4oi8hqt0PQAcrJw5tv19FxRcQ/kPeiR00XcMA.jpg);
+  }
+
+  .container #hospi{
+    background-image: url(https://www.ahaworldcampus.com/images/advanced-hospitality-leadership-page.jpg);
+    background-size: 120%;
+  }
+
+  .container #pub{
+    background-image: url(https://www.prdaily.com/Uploads/Public/publicity_PR_marketing_roles.jpg);
+    background-size: 100%;
+    background-position-y: 5rem;
+  }
+
+  .container #spons{
+    background-image: url(https://ak4.picdn.net/shutterstock/videos/7569724/thumb/1.jpg);
+    background-size: 120%;
+    background-position-y: 5rem;
+  }
+
+  .container #design{
+    background-image: url(https://www.3wallpapers.fr/wp-content/uploads/2012/03/cool-wodden-wall-graffiti-1080p-hd-wallpaper.jpg);
+  }
+
+  .container #informals{
+    background-image: url(http://fiber.westnet.ca:81/cbcarticles/images/1.3949781.1485273913!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/beat-the-blues.jpg);
+    background-size: 270%;
+  }
+
+  .container #qms{
+    background-image: url(https://i.ytimg.com/vi/3ufDW1mhSgM/hqdefault.jpg);
+    background-size: 125%;
+    background-position-y: 4rem;
+    background-position-x: -1.5rem;
+  }
+
+  .container #webops{
+    background-image: url(https://cdn-images-1.medium.com/max/1600/0*R8xAqSnJV8FQqpZd.png);
+    background-size: 350%; 
+    background-position-x: -1.5rem;
+    
+  }
+
+  .container #coords{
+    background-image: url(http://www.harrisonassociates.co.in/harroson/Core%20team%20Coordination.jpg);
+    background-position-y: 6rem;
+    background-size: 130%;
+    background-position-x: -1.5rem;
+  }
+
+  .container div img {
+    position: relative;
+    width: 150%;
+    margin: -25% -25%;
+    min-height: 100%;
+    transition: 0.7s all cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  }
+
+  .container div h1{
+      color: antiquewhite;
+      font-size: 2rem;
+  }
+  
+  
+  .container div span {
+    
+    top: 10px;
+    left: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(255, 255, 255, 0);
+    font-size: 1rem;
+    transition: 0.8s all cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  }
+
+  .container div span ul{
+    text-align: left;
+  }
+  .container div:before {
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, .1);
+    width: 50px;
+    height: 400px;
+    transform: rotate(30deg);
+    top: -40px;
+    left: -200px;
+    transition: 1s all cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  }
+  .container #decor:hover, #hospi:hover, #pub:hover, #spons:hover, #design:hover, #informals:hover, #qms:hover, #webops:hover, #coords:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    border-radius: 10px;
+    box-shadow: 0 20px 300px -20px rgba(0, 0, 0, 1);
+    color: black;
+    background: rgba(0,0,0,0.4);
+  }
+  .container div:hover:before {
+    content: '';
+    left: 350px;
+  }
+  .container div:hover img {
+    width: 100%;
+    margin: 0;
+    min-height: 100%;
+  }
+  .container div:hover span {
+    color: black;
+    bottom: 20px;
+  }
+  
+  .container div:hover h1 {
+    color: black;
+    
+  }
+
+  .back{text-decoration: none;position:fixed; bottom: 0; right: 0;width: 100%;text-align: right;overflow-x: hidden;font-family: 'Raleway', sans-serif;font-size: 1.5rem;color:black;}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active{
+    text-decoration: underline;
+    color:#85a0f2;
+  }
