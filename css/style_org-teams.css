@@ -72,12 +72,17 @@ body {
   }
 
   .container #webops{
-    background-image: url(https://www.readyartwork.com/wp-content/uploads/2017/06/pace-oregon-state-web-design-graphic.jpg);
-    background-size: 200%; 
+    background-image: url(https://cdn-images-1.medium.com/max/1600/0*R8xAqSnJV8FQqpZd.png);
+    background-size: 350%; 
+    background-position-x: -1.5rem;
+    
   }
 
   .container #coords{
-    background-image: url(https://pp.vk.me/X4GW9k3DbqGLK4oi8hqt0PQAcrJw5tv19FxRcQ/kPeiR00XcMA.jpg);
+    background-image: url(http://www.harrisonassociates.co.in/harroson/Core%20team%20Coordination.jpg);
+    background-position-y: 6rem;
+    background-size: 130%;
+    background-position-x: -1.5rem;
   }
 
   .container div img {
