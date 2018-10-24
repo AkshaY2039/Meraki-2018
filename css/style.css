@@ -316,9 +316,9 @@ body {
   position: relative;
   background-color: #030f33;
   color: #ffffff;
-  padding: 100px;
-  margin: -25px;
-  margin-top: -55px; max-width:102%;
+  /*padding: 100px;*/
+  /*margin: -25px;*/
+  margin-top: -55px; max-width:104%;
 }
 
 .content h1 {
@@ -501,7 +501,7 @@ main a {
   table{max-width: 100%;padding-left: 0; margin-left:-1rem !important;} 
   table tr td{font-size: 1rem; text-align:center; align-content: center;vertical-align: center;}
   .content h1 {font-size: 2rem; margin-top: 4rem;margin-left:1%;text-align: center;}
-  .content{width:102%;overflow-x: auto; padding-left:10%; padding-right:10%; height: 100%; position: relative;}
+  .content{max-width:102%;overflow-x: auto; padding-left:10%; padding-right:10%; height: 100%; position: relative;}
   .content p{ text-align: justify;font-size: 1rem; margin-bottom: -5rem;}
   .nav-bar{align-content: right;}
   img{width:70%;margin-top: 8rem;}
@@ -825,6 +825,13 @@ a:hover, a:focus, a:active {
   border-radius: 0;
   text-transform: uppercase;
   letter-spacing: -0.5px;
+}
+.btn h4{
+    font-family: "Oswald", sans-serif;
+/*  text-transform: uppercase;*/
+  color: #333333;
+    margin: 0;
+  padding: 0;
 }
 .widget-close:hover {
   color: #ccc;
