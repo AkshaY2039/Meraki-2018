@@ -579,13 +579,14 @@ table{
   height: 250px;
 }
 .front .img1 {
-  background-image: url(http://i.imgur.com/1aE1nMA.jpg);
+  background-image: url(../workshop/edm-w.jpg);
 }
 .front .img2 {
-  background-image: url(http://i.imgur.com/2p9VXAn.jpg);
+  background-image: url(../workshop/car-w.jpg);
 }
 .front .img3 {
-  background-image: url(http://i.imgur.com/I5ABT2v.jpg);
+  background-image: url(../workshop/dance-w.jpg);
+  background-position-y: 0.2rem; 
 }
 
 .back {
