@@ -5,293 +5,345 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Madras|Meraki'18</title>
-	  
-  
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<style>
-#loader {
-  width: 6vh;
-  height:6vh;
-  position:relative;
-  top:30%;
-  left:69%;
-  /*margin-left:67%;*/
-  /*margin-top:11%;*/
-  background-image: url("./copy3.svg");
-  background-repeat : no-repeat;
-  animation-name: spin;
-  animation-duration: 5000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; 
-}
-#loader_contaner{
-width:100%;
-height:100%;
-position:fixed;
-right:0;
-top:0;
-background-image:url("./copy2.svg");
-background-repeat:no-repeat;
-background-position:center;
-}
 
-@media (max-width:760px){
-  #loader{
-    width: 4vh;
-  height:4vh;
-  position:relative;
-  top:39%;
-  left:75%;
-  }
-}
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-@keyframes spin {
-    from {
-        transform:rotate(0deg);
+  <style>
+    #loader {
+      width: 6vh;
+      height: 6vh;
+      position: relative;
+      top: 30%;
+      left: 69%;
+      /*margin-left:67%;*/
+      /*margin-top:11%;*/
+      background-image: url("./copy3.svg");
+      background-repeat: no-repeat;
+      animation-name: spin;
+      animation-duration: 5000ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
     }
-    to {
-        transform:rotate(360deg);
+
+    #loader_contaner {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      right: 0;
+      top: 0;
+      background-image: url("./copy2.svg");
+      background-repeat: no-repeat;
+      background-position: center;
     }
-}
+
+    @media (max-width:760px) {
+      #loader {
+        width: 4vh;
+        height: 4vh;
+        position: relative;
+        top: 39%;
+        left: 75%;
+      }
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
 
 
-.animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s
-}
+    .animate-bottom {
+      position: relative;
+      -webkit-animation-name: animatebottom;
+      -webkit-animation-duration: 1s;
+      animation-name: animatebottom;
+      animation-duration: 1s
+    }
 
-@-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
-}
+    @-webkit-keyframes animatebottom {
+      from {
+        bottom: -100px;
+        opacity: 0
+      }
 
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
-}
+      to {
+        bottom: 0px;
+        opacity: 1
+      }
+    }
 
-#myDiv {
-  display: none;
-  text-align: center;
-}
+    @keyframes animatebottom {
+      from {
+        bottom: -100px;
+        opacity: 0
+      }
 
+      to {
+        bottom: 0;
+        opacity: 1
+      }
+    }
 
-
-
-</style>
+    #myDiv {
+      display: none;
+      text-align: center;
+      height: 100%;
+    }
+  </style>
 </head>
+
 <body onload="myFunction()" style="margin:0;">
-    <div id="loader_contaner"><div id="loader"></div></div>
-    
-    
-      <div  style="display:none;" id="myDiv" class="animate-bottom"> 
+  <div id="loader_contaner">
+    <div id="loader"></div>
+  </div>
 
 
-    
-  <div id="parallax-container">
-    
-    <div id="Clouds">
-      <div class="Cloud Foreground"></div>
-      <div class="Cloud Background"></div>
-      <div class="Cloud Foreground"></div>
-      <div class="Cloud Background"></div>
-      <div class="Cloud Foreground"></div>
-      <div class="Cloud Background"></div>
-      <div class="Cloud Background"></div>
-      <div class="Cloud Foreground"></div>
-      <div class="Cloud Background"></div>
-      <div class="Cloud Background"></div>
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+
+    <div class="side-widget open">
+      <div class="inner">
+        <a href="Meraki Schedule 2k18 - TimeTable.pdf" class="btn btn-blue productCheckout" target="_blank";>Schedule</a>
+      </div>
 
     </div>
 
-    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-      y="0px" width="40px" height="24px" viewBox="0 0 40 24" enable- xml:space="preserve">
-      <defs>
-        <path id="Cloud" d="M33.85,14.388c-0.176,0-0.343,0.034-0.513,0.054c0.184-0.587,0.279-1.208,0.279-1.853c0-3.463-2.809-6.271-6.272-6.271
+    <div class="side-widget-1 open">
+      <div class="inner">
+        <a href="Rulebook -Meraki'18.pdf" class="btn btn-blue productCheckout" target="_blank">RuleBook</a>
+      </div>
+
+    </div>
+    <div style="height: 100%;">
+
+      <div id="parallax-container">
+
+        <div id="Clouds">
+          <div class="Cloud Foreground"></div>
+          <div class="Cloud Background"></div>
+          <div class="Cloud Foreground"></div>
+          <div class="Cloud Background"></div>
+          <div class="Cloud Foreground"></div>
+          <div class="Cloud Background"></div>
+          <div class="Cloud Background"></div>
+          <div class="Cloud Foreground"></div>
+          <div class="Cloud Background"></div>
+          <div class="Cloud Background"></div>
+
+        </div>
+
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+          y="0px" width="40px" height="24px" viewBox="0 0 40 24" enable- xml:space="preserve">
+          <defs>
+            <path id="Cloud" d="M33.85,14.388c-0.176,0-0.343,0.034-0.513,0.054c0.184-0.587,0.279-1.208,0.279-1.853c0-3.463-2.809-6.271-6.272-6.271
     c-0.38,0-0.752,0.039-1.113,0.104C24.874,2.677,21.293,0,17.083,0c-5.379,0-9.739,4.361-9.739,9.738
     c0,0.418,0.035,0.826,0.084,1.229c-0.375-0.069-0.761-0.11-1.155-0.11C2.811,10.856,0,13.665,0,17.126
     c0,3.467,2.811,6.275,6.272,6.275c0.214,0,27.156,0.109,27.577,0.109c2.519,0,4.56-2.043,4.56-4.562
     C38.409,16.43,36.368,14.388,33.85,14.388z" />
-      </defs>
-    </svg>
-    <div style="position:fixed;bottom:0; background: url(8.png);background-repeat: no-repeat; top: 3.7%; background-size: 95%; height: 100%; width: 100%">  </div>
-
-
-
-    <header>
-      <div class="nav-bar" style="position: fixed;">
-        <ul >
-          <li><a href="#one">ABOUT US</a></li>
-          <li><a href="#two">WORKSHOPS</a></li>
-          <li><a href="#three">SOCIAL CAUSE</a></li>
-          <li><a href="wholeevents.html">EVENTS</a></li>
-          <li><a href="org-teams.html">ORGANISING TEAMS</a></li>
-          <li><a href="#four">CONTACT US</a></li>
-        </ul>
-      </div>
-    </header>
-  </div>
-
-  <span class="anchor"></span>
-
-  <main>
-    <div class="content">
-      <div id="one">
-        <span class="anchor"></span>
-        <h1>ABOUT US</h1>
-        <p>There are some things that we can't forget, that forms a part of who we are - the salty marina breeze, the refreshing aroma of filter coffee, the richness of Carnatic music that makes us feel alive. We've stood huddled on sidewalks eating sundal wrapped in newspapers, taking shelter from the unexpected showers. The dances and the metro, the temples and the malls, the summer and the hot winter -  we know it all because we live in it, day after day.<br><br>
-            There's a Madrasi in every Chennaiite’s heart.<br><br>
-            And we bring to you Meraki ‘18 with Madras in its heart.<br><br>
-            A word which cannot be captured, MERAKI with its Greek roots, means to pour your soul and love and creativity into everything you do and to put yourself out there where people can see it. This is the idea behind our Intra-College cultural fest - a place where the love of art and culture and the urge to create, all come together. With a series of exciting events, workshops, and beat dropping DJ night, engaging informals and topping it all off a lot of exciting prizes, Meraki’18  awaits you!
-        </p>
-      </div>
-
-      <div id="two">
-          <span class="anchor"></span>
-          <h1>WORKSHOPS</h1>
-          <div class="cardContainer inactive">
-      
-        <div class="card">
-          <div class="side front">
-            <div class="img img1"></div>
-            <div class="info1">
-              <h2 >FUTURE SOUND</h2>
-              <p>A "EDM Composition" during the Fest,open to all the PARTY-HARD People out there !</p>
-            </div>
-          </div>
-          <div class="side back">
-            <div class="info">
-              <h2>Pre-Requisites</h2>
-              <div class="info11">
-                <ul>
-                  <li> Laptop is a Must (Software link will be provided post registration)</li>
-                  <li>People attending the theory class on Fridays will be given more priority</li>
-                  <li>Bring on your Creativity and Lets make some 🎧Noice Beats Shall We 🎧.!</li>
-                </ul>
-              </div>
-              <div class="btn">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdi61Xdf3GK2OInAitkAw0Eu7_MaI50agpDl4e7PtmNdCiR_g/viewform?usp=sf_link" target="_blank"><h4>Register</h4></a>
-                <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
-              </div>
-            </div>
-          </div>
+          </defs>
+        </svg>
+        <div style="position:fixed;bottom:0; background: url(8.png);background-repeat: no-repeat; top: 3.7%; background-size: 95%; height: 100%; width: 100%">
         </div>
-      </div>
-      
-      <div class="cardContainer inactive">
-        <div class="card">
-          <div class="side front">
-            <div class="img img2"></div>
-            <div class="info1">
-              <h2>CARNATIC WORKSHOP</h2>
-              <p>Theme:A Peek Into Indian Classical Music</p>
-              <p>Lecture by eminent classical vocalist Smt. Laksmi Sreeram</p>
-            </div>
-          </div>
-          <div class="side back">
-            <div class="info">
-              <h2>At a glance</h2>
-              <div class="info11">
-                  <ul style="list-style: none;"></ul>
-                  <li style="list-style: none;">It is a proud moment and privilege to have with us, Smt. Lakshmi Sriram, an eminent vocalist trained in Carnatic and Hindustani classical music. She will be addressing the students and demonstrate intriguing aspects of Indian classical music.</li>
-                  <li>Date: Oct 28</li>
-                  <li>Time: 10:30 am</li>
-                  <li>Venue: Old Library</li>
-                  <li>Registration-fee: Rs. 50</li>
-                </ul>
-              </div>
-              <div class="btn">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbiDIZnfcv52Xq_rdY6WU-xnxFDU10VpdIVVGZOaBiUCwOAw/viewform?usp=sf_link" target="_blank"><h4>Register</h4></a>
-                <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="cardContainer inactive">
-        <div class="card">
-          <div class="side front">
-            <div class="img img3"></div>
-            <div class="info1">
-              <h2>HIP HOP WORKSHOP</h2>
-              <p>Tap. Shake. Roll. And get grooving as we present to you the hip hop workshop.</p>
-            </div>
-          </div>
-          <div class="side back">
-            <div class="info">
-              <h2>At a glance</h2>
-              <div class="info11">
-                <ul>
-                  <li>Manage backyard gates with ease with the 36" deck option</li>
-                  <li>Your choice of deck sizes ranging from 36", 48", 52" and 60"</li>
-                  <li >Updated hip bolstering offers superior operator comfort and positioning</li>
-                </ul>
-              </div>
-              <div class="btn">
-                <h4>Learn More</h4>
-                <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <script src="js/events.js"></script>
-          </div>
 
-      <div id="three">
-        <span class="anchor" id="three"></span>
-        <h1>SOCIAL CAUSE- FIGHT FOOD WASTE</h1>
-        <p>As part of the IIITDM community, we want to focus on the conservation of resources and human effort, so
-          through MERAKI 2018, we hope to accentuate the social issue of food waste.
-        <div class="image"><img src="sc_1.jpg" alt=""></div>
-        </p>
-        
+
+
+        <header>
+          <div class="nav-bar" style="position: fixed;">
+            <ul>
+              <li><a href="#one">ABOUT US</a></li>
+              <li><a href="#two">WORKSHOPS</a></li>
+              <li><a href="#three">SOCIAL CAUSE</a></li>
+              <li><a href="wholeevents.html">EVENTS</a></li>
+              <li><a href="org-teams.html">ORGANISING TEAMS</a></li>
+              <li><a href="#four">CONTACT US</a></li>
+            </ul>
+          </div>
+        </header>
       </div>
 
-      <div id="four">
-        <span class="anchor" id="four"></span>
-        <h1>CONTACT US</h1>
-        <table width=100%>
-          <tr>
-          <td>Dharmesh Harsha</td>
-          <td><i style="font-size:24px" class="fa">&#xf16d;</i><a style="padding:auto;float:none;" href="https://www.instagram.com/iiitdmculturals/">IIITDMCULTURALS</a></td>
-          <td>Arya E</td>
-          </tr>
-          <tr>
-          <td>9962279625</td>
-          <td>          </td>
-          <td>7358169819</td>
-          </tr>
-        </table>
-      </div>
-      
+      <span class="anchor"></span>
+
+      <main>
+        <div class="content">
+          <div id="one">
+            <span class="anchor"></span>
+            <h1>ABOUT US</h1>
+            <p>There are some things that we can't forget, that forms a part of who we are - the salty marina breeze,
+              the refreshing aroma of filter coffee, the richness of Carnatic music that makes us feel alive. We've
+              stood huddled on sidewalks eating sundal wrapped in newspapers, taking shelter from the unexpected
+              showers. The dances and the metro, the temples and the malls, the summer and the hot winter - we know it
+              all because we live in it, day after day.<br><br>
+              There's a Madrasi in every Chennaiite’s heart.<br><br>
+              And we bring to you Meraki ‘18 with Madras in its heart.<br><br>
+              A word which cannot be captured, MERAKI with its Greek roots, means to pour your soul and love and
+              creativity into everything you do and to put yourself out there where people can see it. This is the idea
+              behind our Intra-College cultural fest - a place where the love of art and culture and the urge to
+              create, all come together. With a series of exciting events, workshops, and beat dropping DJ night,
+              engaging informals and topping it all off a lot of exciting prizes, Meraki’18 awaits you!
+            </p>
+          </div>
+
+          <div id="two">
+            <span class="anchor"></span>
+            <h1>WORKSHOPS</h1>
+            <div class="cardContainer inactive">
+
+              <div class="card">
+                <div class="side front">
+                  <div class="img img1"></div>
+                  <div class="info1">
+                    <h2>FUTURE SOUND</h2>
+                    <p>A "EDM Composition" during the Fest,open to all the PARTY-HARD People out there !</p>
+                  </div>
+                </div>
+                <div class="side back">
+                  <div class="info">
+                    <h2>Pre-Requisites</h2>
+                    <div class="info11">
+                      <ul>
+                        <li> Laptop is a Must (Software link will be provided post registration)</li>
+                        <li>People attending the theory class on Fridays will be given more priority</li>
+                        <li>Bring on your Creativity and Lets make some 🎧Noice Beats Shall We 🎧.!</li>
+                      </ul>
+                    </div>
+                    <div class="btn">
+                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdi61Xdf3GK2OInAitkAw0Eu7_MaI50agpDl4e7PtmNdCiR_g/viewform?usp=sf_link"
+                        target="_blank">
+                        <h4>Register</h4>
+                      </a>
+                      <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" />
+                        <path d="M0-.25h24v24H0z" fill="none" /></svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cardContainer inactive">
+              <div class="card">
+                <div class="side front">
+                  <div class="img img2"></div>
+                  <div class="info1">
+                    <h2>CARNATIC WORKSHOP</h2>
+                    <p>Theme:A Peek Into Indian Classical Music</p>
+                    <p>Lecture by eminent classical vocalist Smt. Laksmi Sreeram</p>
+                  </div>
+                </div>
+                <div class="side back">
+                  <div class="info">
+                    <h2>At a glance</h2>
+                    <div class="info11">
+                      <ul style="list-style: none;"></ul>
+                      <li style="list-style: none;">It is a proud moment and privilege to have with us, Smt. Lakshmi
+                        Sriram, an eminent vocalist trained in Carnatic and Hindustani classical music. She will be
+                        addressing the students and demonstrate intriguing aspects of Indian classical music.</li>
+                      <li>Date: Oct 28</li>
+                      <li>Time: 10:30 am</li>
+                      <li>Venue: Old Library</li>
+                      <li>Registration-fee: Rs. 50</li>
+                      </ul>
+                    </div>
+                    <div class="btn">
+                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbiDIZnfcv52Xq_rdY6WU-xnxFDU10VpdIVVGZOaBiUCwOAw/viewform?usp=sf_link"
+                        target="_blank">
+                        <h4>Register</h4>
+                      </a>
+                      <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" />
+                        <path d="M0-.25h24v24H0z" fill="none" /></svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cardContainer inactive">
+              <div class="card">
+                <div class="side front">
+                  <div class="img img3"></div>
+                  <div class="info1">
+                    <h2>HIP HOP WORKSHOP</h2>
+                    <p>Tap. Shake. Roll. And get grooving as we present to you the hip hop workshop.</p>
+                  </div>
+                </div>
+                <div class="side back">
+                  <div class="info">
+                    <h2>At a glance</h2>
+                    <div class="info11">
+                      <ul>
+                        <li>Manage backyard gates with ease with the 36" deck option</li>
+                        <li>Your choice of deck sizes ranging from 36", 48", 52" and 60"</li>
+                        <li>Updated hip bolstering offers superior operator comfort and positioning</li>
+                      </ul>
+                    </div>
+                    <div class="btn">
+                      <h4>Learn More</h4>
+                      <svg fill="#333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" />
+                        <path d="M0-.25h24v24H0z" fill="none" /></svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <script src="js/events.js"></script>
+          </div>
+
+          <div id="three">
+            <span class="anchor" id="three"></span>
+            <h1>SOCIAL CAUSE- FIGHT FOOD WASTE</h1>
+            <p>As part of the IIITDM community, we want to focus on the conservation of resources and human effort, so
+              through MERAKI 2018, we hope to accentuate the social issue of food waste.
+              <div class="image"><img src="sc_1.jpg" alt=""></div>
+            </p>
+
+          </div>
+
+          <div id="four">
+            <span class="anchor" id="four"></span>
+            <h1>CONTACT US</h1>
+            <table width=100%>
+              <tr>
+                <td>Dharmesh Harsha</td>
+                <td><i style="font-size:24px" class="fa">&#xf16d;</i><a style="padding:auto;float:none;" href="https://www.instagram.com/iiitdmculturals/">IIITDMCULTURALS</a></td>
+                <td>Arya E</td>
+              </tr>
+              <tr>
+                <td>9962279625</td>
+                <td> </td>
+                <td>7358169819</td>
+              </tr>
+            </table>
+          </div>
+
 
           <a class="top" href="#top">TOP</a>
 
         </div>
       </main>
-      </div>
+    </div>
 
-      <script>
-          var myVar;
-          
-          function myFunction() {
-              
-              myVar = setTimeout(showPage, 3000);
-          }
-          
-          function showPage() {
-            document.getElementById("loader_contaner").style.display = "none";
-            document.getElementById("loader").style.display = "none";
-            document.getElementById("myDiv").style.display = "block";
-          }
-          </script>
+    <script>
+      var myVar;
+
+      function myFunction() {
+
+        myVar = setTimeout(showPage, 3000);
+      }
+
+      function showPage() {
+        document.getElementById("loader_contaner").style.display = "none";
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+      }
+    </script>
 
 </body>
 <!-- Link to jQuery Library -->

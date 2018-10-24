@@ -274,6 +274,7 @@ html {
 }
 body {
   min-height: 100%;
+  height: 100%;
 }
 body {
   color: #FFF;
@@ -289,7 +290,7 @@ body {
 
 #parallax-container {
   display: block;
-  height: 750px;
+  height: 82%;
   margin-top: 50px;
   width:100%;
 }
@@ -742,3 +743,84 @@ svg:not(:root), symbol, image, marker, pattern, foreignObject {
 }
 
 .info11 p{margin:2%;text-align: center;}
+
+/* Side Widget */
+.side-widget.open {
+  margin-right: 0;
+}
+.side-widget-1.open {
+  margin-right: 0;
+}
+.side-widget {
+  width: 45px;
+  z-index: 9;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  right: 0;
+  top: 54%;
+  text-align: center;
+  margin-right: -45px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.side-widget-1 {
+  width: 45px;
+  z-index: 9;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  right: 0;
+  top: 30%;
+  text-align: center;
+  margin-right: -45px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.btn.btn-blue:hover {
+  background-color: #1f6fa6;
+
+}
+.btn.btn-blue {
+  background-color: #0082ca !important;
+}
+.btn.btn-blue {
+  background-color: #2483c3 !important ;
+  color: #fff;
+  -webkit-transition: all 0.3s ease !important;
+  transition: all 0.3s ease !important;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none;
+}
+.btn {
+  font-family: 'proxima-nova', sans-serif;
+  font-size: 22px !important;
+  font-weight: 600;
+  padding: 12px 35px;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+.widget-close:hover {
+  color: #ccc;
+}
+.widget-close {
+  color: #636363;
+}
+.widget-close {
+  position: absolute;
+  left: 3px;
+  top: 0;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  z-index: 1;
+}
