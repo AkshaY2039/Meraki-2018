@@ -274,6 +274,7 @@ html {
 }
 body {
   min-height: 100%;
+  height: 100%;
 }
 body {
   color: #FFF;
@@ -289,7 +290,7 @@ body {
 
 #parallax-container {
   display: block;
-  height: 750px;
+  height: 82%;
   margin-top: 50px;
   width:100%;
 }
@@ -482,13 +483,15 @@ main a {
   main {
    max-width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
-  table{max-width: 100%;padding-left: 0; margin-left:-1rem;} 
-  table tr td{font-size: 1rem;}
+  table tr td div{display:block; background-size: 11.5rem !important; margin-left: 2.5rem !important; width:8rem !important; height:8rem !important;}
+  table{max-width: 100%;padding-left: 0; margin-left:-1rem !important;} 
+  table tr td{font-size: 1rem; text-align:center; align-content: center;vertical-align: center;}
   .content h1 {font-size: 2rem; margin-top: 4rem;margin-left:1%;text-align: center;}
   .content{max-width:102%;overflow-x: auto; padding-left:10%; padding-right:10%; margin:auto; height: 100%; position: relative;}
   .content p{ text-align: justify;font-size: 1rem; margin-bottom: -5rem;}
   .nav-bar{align-content: right;}
   img{width:70%;margin-top: 8rem;}
+  #four p{text-align:center;}
   
 }
 .cardContainer {
@@ -513,7 +516,7 @@ main a {
 }
 
 table{
-  font-size: 1.5rem;
+  font-size: 1.5rem; margin-left: -3.5rem;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -742,3 +745,84 @@ svg:not(:root), symbol, image, marker, pattern, foreignObject {
 }
 
 .info11 p{margin:2%;text-align: center;}
+
+/* Side Widget */
+.side-widget.open {
+  margin-right: 0;
+}
+.side-widget-1.open {
+  margin-right: 0;
+}
+.side-widget {
+  width: 45px;
+  z-index: 9;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  right: 0;
+  top: 54%;
+  text-align: center;
+  margin-right: -45px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.side-widget-1 {
+  width: 45px;
+  z-index: 9;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  right: 0;
+  top: 30%;
+  text-align: center;
+  margin-right: -45px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.btn.btn-blue:hover {
+  background-color: #1f6fa6;
+
+}
+.btn.btn-blue {
+  background-color: #0082ca !important;
+}
+.btn.btn-blue {
+  background-color: #2483c3 !important ;
+  color: #fff;
+  -webkit-transition: all 0.3s ease !important;
+  transition: all 0.3s ease !important;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none;
+}
+.btn {
+  font-family: 'proxima-nova', sans-serif;
+  font-size: 22px !important;
+  font-weight: 600;
+  padding: 12px 35px;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+.widget-close:hover {
+  color: #ccc;
+}
+.widget-close {
+  color: #636363;
+}
+.widget-close {
+  position: absolute;
+  left: 3px;
+  top: 0;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  z-index: 1;
+}
