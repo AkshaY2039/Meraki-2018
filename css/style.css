@@ -825,6 +825,13 @@ a:hover, a:focus, a:active {
   text-transform: uppercase;
   letter-spacing: -0.5px;
 }
+.btn h4{
+    font-family: "Oswald", sans-serif;
+/*  text-transform: uppercase;*/
+  color: #333333;
+    margin: 0;
+  padding: 0;
+}
 .widget-close:hover {
   color: #ccc;
 }
