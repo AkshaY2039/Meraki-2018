@@ -135,10 +135,7 @@
           <div class="Cloud Foreground"></div>
           <div class="Cloud Background"></div>
           <div class="Cloud Background"></div>
-
-        </div>
-
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
           y="0px" width="40px" height="24px" viewBox="0 0 40 24" enable- xml:space="preserve">
           <defs>
             <path id="Cloud" d="M33.85,14.388c-0.176,0-0.343,0.034-0.513,0.054c0.184-0.587,0.279-1.208,0.279-1.853c0-3.463-2.809-6.271-6.272-6.271
@@ -148,20 +145,25 @@
     C38.409,16.43,36.368,14.388,33.85,14.388z" />
           </defs>
         </svg>
-        <div style="position:fixed;bottom:0; background: url(8.png);background-repeat: no-repeat; top: 3.7%; background-size: 95%; height: 100%; width: 100%">
+        </div>
+          </div>
+
+
+        <div>
+        <div id="picture" style="position:fixed;bottom:0; background: url(8.png);background-repeat: no-repeat; top: 100px; background-size: 95%; height: 100%; width: 100%">
         </div>
 
 
 
         <header>
           <div class="nav-bar" style="position: fixed;">
-              
+          
             <ul>
               <li><a href="http://meraki18.herokuapp.com"><img src="meraki2.png" style="width:100px;display:inline-flex;margin:0 0 0 0;"></a></li>
               <li><a href="#one">ABOUT US</a></li>
               <li><a href="#two">WORKSHOPS</a></li>
               <li><a href="#three">SOCIAL CAUSE</a></li>
-              <li><a href="wholeevents.html">EVENTS</a></li>
+              <li><a id="eventslink" href="wholeevents.html">EVENTS</a></li>
               <li><a href="org-teams.html">ORGANISING TEAMS</a></li>
               <li><a href="#four">CONTACT US</a></li>
               <li><a href="http://iiitdm.ac.in">IIITDM</a></li>
@@ -170,7 +172,7 @@
         </header>
       </div>
 
-      <span class="anchor"></span>
+      
 
       <main>
         <div class="content">
@@ -317,16 +319,15 @@
         
           <div class="row">
             <div class="col-sm-4" style="vertical-align: bottom;">Dharmesh Harsha<br>9962279625</div>
-            <div class="col-sm-4"><i style="font-size:24px" class="fa">&#xf16d;</i><a style="padding:auto;float:none;" href="https://www.instagram.com/iiitdmculturals/">IIITDMCULTURALS</a><br><div style="display:inline-flex;width: 10rem; height: 10rem; background-color: white; background-image: url(ICC_Black.png);background-size: 14rem; background-position-x: -2rem; background-repeat: no-repeat;"></div></div>
-          <div class="col-sm-4">Arya E<br>7358169819</div>
-          
+            <div class="col-sm-4 col-xs-push-4"><i style="font-size:24px" class="fa">&#xf16d;</i><a style="padding:auto;float:none;" href="https://www.instagram.com/iiitdmculturals/">IIITDMCULTURALS</a><br><div style="display:inline-flex;width: 10rem; height: 10rem; background-color: white; background-image: url(ICC_Black.png);background-size: 14rem; background-position-x: -2rem; background-repeat: no-repeat;"></div></div>
+          <div class="col-sm-4 col-xs-pull-4">Arya E<br>7358169819</div>
           
           <!-- <td ><div style="display:block; margin-left:14rem; width: 10rem; height: 10rem; background-color: white; background-image: url(ICC_Black.png);background-size: 14rem; background-position-x: -2rem; background-repeat: no-repeat;"></div></td> -->
           
         </div>
         
         <br>
-        <p>Designed by DMT:<br>Anurag, Ganesh, Gowtham, Shramona & Vaibhav<p>
+        <p>Designed by DMT<p>
       </div>
       
 
@@ -359,5 +360,11 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 <!-- Link to external JS file with needed code -->
 <!--<script src="js/index.js"></script>-->
+<script>
+if ($(window).width() < 700){
+  console.log("Mobile")
+  $("#eventslink").attr("href", "wholeevents2.html")
+}
+</script>
 
 </html>

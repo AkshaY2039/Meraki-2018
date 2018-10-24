@@ -282,6 +282,12 @@ body {
   background-image: radial-gradient(circle, #F9A72B 0%, #FA9026 70%, #FB6C1F 100%);
 }
 
+#loader-contaner {
+  color: #FFF;
+  background-color: #FD940A;
+  background-image: radial-gradient(circle, #F9A72B 0%, #FA9026 70%, #FB6C1F 100%);
+}
+
 
 
 body {
@@ -301,6 +307,7 @@ body {
   background-position: center !important;
   transform: translateY(0px);
   width: 100%;
+  
 }
 
 
@@ -835,3 +842,16 @@ a:hover, a:focus, a:active {
 }
 
 
+@media (max-width:1000px)
+{
+  #clouds{
+    top:500px;
+  }
+}
+
+@media (min-width:1000.2px)
+{
+  #picture{
+    top:10000px;
+  }
+}
