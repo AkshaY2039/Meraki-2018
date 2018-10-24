@@ -131,7 +131,7 @@ body {
     background-position-x: 0.7rem;
 
     background-position-y: 5.5rem;
-    background-image: url(../logos/illiterati.jpg);
+    background-image: url(../logos/illiterati.png);
   }
     .container #photo{
             /*background-size: 100%;*/
@@ -158,7 +158,7 @@ body {
     
   }
     .container #drama{
-    background-image: url(../logos/stagestruck.jpg);
+    background-image: url(../logos/stagestruck.png);
     background-position-y: 6.5rem;
   }
 
