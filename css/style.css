@@ -752,7 +752,7 @@ svg:not(:root), symbol, image, marker, pattern, foreignObject {
   margin-right: 0;
 }
 .side-widget {
-  width: 45px;
+  width: 35px;
   z-index: 9;
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.9);
@@ -768,7 +768,7 @@ svg:not(:root), symbol, image, marker, pattern, foreignObject {
   transform: rotate(90deg);
 }
 .side-widget-1 {
-  width: 45px;
+  width: 35px;
   z-index: 9;
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.9);
@@ -801,9 +801,9 @@ a:hover, a:focus, a:active {
 }
 .btn {
   font-family: 'proxima-nova', sans-serif;
-  font-size: 22px !important;
+  font-size: 17px !important;
   font-weight: 600;
-  padding: 12px 35px;
+  padding: 6px 30px;
   border-radius: 0;
   text-transform: uppercase;
   letter-spacing: -0.5px;
