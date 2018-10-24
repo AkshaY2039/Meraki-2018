@@ -1,0 +1,57 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+h2, h4, p, ul, li {
+  margin: 100;
+  padding: 1000;
+}
+
+ h2, h4 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+h2 {
+  font-size: 27px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  margin-bottom: 100px;
+}
+
+p, li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #555;
+  line-height: 22px;
+}
+
+ul, li {
+  text-decoration: none;
+  list-style: disc outside;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+svg {
+  margin: 0px;
+  min-width: 24px;
+  min-height: 24px;
+}
+
+body {
+  background-color: #dadce2;
+  background-image: linear-gradient(140deg, white, #dadce2);
+  margin: 0;
+  width: 100vw;
+  min-height: 450px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

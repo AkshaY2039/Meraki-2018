@@ -28,12 +28,20 @@ body {
    font-family: 'Markazi Text', serif;
    color: #030f33;
   }
+    body h2{
+   text-align: center;
+   font-size: 2.5rem;
+   font-family: 'Markazi Text', serif;
+   color: #030f33;
+  }
 
   body p{
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;   
   }
+
+
   .container #decor{
     background-image: url(https://pp.vk.me/X4GW9k3DbqGLK4oi8hqt0PQAcrJw5tv19FxRcQ/kPeiR00XcMA.jpg);
   }
@@ -130,6 +138,7 @@ body {
     box-shadow: 0 20px 300px -20px rgba(0, 0, 0, 1);
     color: black;
     background: rgba(0,0,0,0.4);
+
   }
   .container div:hover:before {
     content: '';
@@ -152,11 +161,39 @@ body {
 
   .back{text-decoration: none;position:fixed; bottom: 0; right: 0;width: 100%;text-align: right;overflow-x: hidden;font-family: 'Raleway', sans-serif;font-size: 1.5rem;color:black;}
 
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    visibility: hidden;
+
+}
+
+.container #decor:hover, #hospi:hover, #pub:hover, #spons:hover, #design:hover, #informals:hover, #qms:hover, #webops:hover, #coords:hover  .button{
+  visibility: visible;
+}
+
+
+.poll{
+  bottom: 10px;
+}
 a:hover {
   text-decoration: underline;
+
 }
 
 a:active{
     text-decoration: underline;
     color:#85a0f2;
   }
+
+
+
