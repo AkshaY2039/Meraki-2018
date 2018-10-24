@@ -62,6 +62,8 @@ body {
   transition: flex-basis 500ms ease-in-out;
 }
 
+.back{text-decoration: none;position:fixed; bottom: -45%; right: 1%;width: 100%;text-align: right;overflow-x: hidden;font-family: 'Raleway', sans-serif;font-size: 1.5rem;color:black;}
+
 .color:hover {
   /*
     Change the flex-basis so that we know what
