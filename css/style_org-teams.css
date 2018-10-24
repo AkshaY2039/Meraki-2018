@@ -21,19 +21,53 @@ body {
     transition: 0.7s all cubic-bezier(0.785, 0.135, 0.15, 0.86);
     box-shadow: 0 50px 150px -20px rgba(0, 0, 0, .75);
   }
+  .logoa{
+    width: 100%;/*height: 4rem;*/ background-color: white;  left:0; top:0; position: fixed;
+    z-index: 10;
+  }
 
   body h1{
-   text-align: center;
-   font-size: 4rem;
+
    font-family: 'Markazi Text', serif;
    color: #030f33;
   }
+
+ 
+
 
   body p{
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;   
+    
   }
+   @media (max-width: 600px) {
+    /* mobile*/
+  h1{
+    font-size:2rem;
+  }
+  .logoa{
+    height:7.5rem;
+    text-align: center;
+  }
+    body p{
+ margin-top: 6em;
+}
+  }
+  @media (min-width: 1000px) {
+  /* desktop*/
+  h1{
+     text-align: center;
+   font-size: 4rem;
+ }
+   .logoa{
+    height:7.5rem;
+    text-align: center;
+  }
+  body p{
+ margin-top: 7em;
+}
+}
   .container #decor{
     background-image: url(https://pp.vk.me/X4GW9k3DbqGLK4oi8hqt0PQAcrJw5tv19FxRcQ/kPeiR00XcMA.jpg);
   }
