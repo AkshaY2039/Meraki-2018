@@ -50,67 +50,118 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;   
   }
-
-
-  #decor span{
+  #canva span{
     display: none;
   }
-
-  #decor:hover span{
+    #game span{
+    display: none;
+  }
+    #dance span{
+    display: none;
+  }
+    #music span{
+    display: none;
+  }
+    #lit span{
+    display: none;
+  }
+    #drama span{
+    display: none;
+  }
+    #photo span{
+    display: none;
+  }
+    #gdc span{
+    display: none;
+  }
+    #quiz span{
+    display: none;
+  }
+    #quiz:hover span{
+    display: block;
+  }
+  #canva:hover span{
+    display: block;
+  }
+    #game:hover span{
+    display: block;
+  }
+    #dance:hover span{
+    display: block;
+  }
+    #lit:hover span{
+    display: block;
+  }
+    #photo:hover span{
+    display: block;
+  }
+    #gdc:hover span{
+    display: block;
+  }
+    #drama:hover span{
+    display: block;
+  }
+    #music:hover span{
     display: block;
   }
 
-  .container #decor{
-    background-image: url(https://pp.vk.me/X4GW9k3DbqGLK4oi8hqt0PQAcrJw5tv19FxRcQ/kPeiR00XcMA.jpg);
+  .container #canva{
+    background-image: url(../logos/canvas.png);
+    background-size: 60%;
+    background-position-x: 2.5rem;
+    background-position-y: 6.3rem;
   }
+    .container #game{
+    background-image: url(../logos/esports.png);
+    background-size: 65%;
+    background-position-x: 2.4rem;
 
-  /*.container #hospi{
-    background-image: url(https://www.ahaworldcampus.com/images/advanced-hospitality-leadership-page.jpg);
-    background-size: 120%;
+    background-position-y: 7.5rem;
   }
+    .container #dance{
+    background-image: url(../logos/footlights.png);
+    background-size: 80%;
+    background-position-x: 1.7rem;
 
-  .container #pub{
-    background-image: url(https://www.prdaily.com/Uploads/Public/publicity_PR_marketing_roles.jpg);
-    background-size: 100%;
+    background-position-y: 6rem;
+  }
+    .container #lit{
+          background-size: 90%;
+    background-position-x: 0.7rem;
+
+    background-position-y: 5.5rem;
+    background-image: url(../logos/illiterati.jpg);
+  }
+    .container #photo{
+            /*background-size: 100%;*/
+    /*background-position-x: 1.5rem;*/
     background-position-y: 5rem;
+    background-image: url(../logos/imagix.png);
   }
-
-  .container #spons{
-    background-image: url(https://ak4.picdn.net/shutterstock/videos/7569724/thumb/1.jpg);
-    background-size: 120%;
-    background-position-y: 5rem;
+    .container #music{
+    background-image: url(../logos/music.png);
+    background-size: 40%;
+    background-position-x: 4rem;
+    background-position-y: 6rem;
   }
+    .container #gdc{
+      background-size: 80%;
+    background-position-x: 1.5rem;
+    background-position-y: 7rem;
 
-  .container #design{
-    background-image: url(https://www.3wallpapers.fr/wp-content/uploads/2012/03/cool-wodden-wall-graffiti-1080p-hd-wallpaper.jpg);
+    background-image: url(../logos/pixels.png);
   }
-
-  .container #informals{
-    background-image: url(http://fiber.westnet.ca:81/cbcarticles/images/1.3949781.1485273913!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/beat-the-blues.jpg);
-    background-size: 270%;
-  }
-
-  .container #qms{
-    background-image: url(https://i.ytimg.com/vi/3ufDW1mhSgM/hqdefault.jpg);
-    background-size: 125%;
+    .container #quiz{
+    background-image: url(../logos/quriosity.png);
     background-position-y: 4rem;
-    background-position-x: -1.5rem;
-  }
-
-  .container #webops{
-    background-image: url(https://cdn-images-1.medium.com/max/1600/0*R8xAqSnJV8FQqpZd.png);
-    background-size: 350%; 
-    background-position-x: -1.5rem;
     
   }
+    .container #drama{
+    background-image: url(../logos/stagestruck.jpg);
+    background-position-y: 6.5rem;
+  }
 
-  .container #coords{
-    background-image: url(http://www.harrisonassociates.co.in/harroson/Core%20team%20Coordination.jpg);
-    background-position-y: 6rem;
-    background-size: 130%;
-    background-position-x: -1.5rem;
-  }*/
-
+ 
   .container div img {
     position: relative;
     width: 150%;
@@ -152,7 +203,7 @@ body {
   .container #decor{
     /*display: none;*/
   }
-  .container #decor:hover{
+  .container #canva:hover, #game:hover, #lit:hover, #drama:hover, #gdc:hover, #photo:hover, #music:hover, #dance:hover, #quiz:hover{
     cursor: pointer;
     transform: scale(1.2);
     border-radius: 10px;
