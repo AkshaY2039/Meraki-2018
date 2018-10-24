@@ -51,7 +51,8 @@ body {
     text-align: center;
   }
     body p{
- margin-top: 6em;
+ margin-top: 7em;
+ font-size: 1.3rem;
 }
   }
   @media (min-width: 1000px) {
@@ -61,11 +62,11 @@ body {
    font-size: 4rem;
  }
    .logoa{
-    height:7.5rem;
+    height:10rem;
     text-align: center;
   }
   body p{
- margin-top: 7em;
+ margin-top: 7.7em;
 }
 }
   .container #decor{
