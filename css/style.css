@@ -483,13 +483,15 @@ main a {
   main {
    max-width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
-  table{max-width: 100%;padding-left: 0; margin-left:-1rem;} 
-  table tr td{font-size: 1rem;}
+  table tr td div{display:block; background-size: 11.5rem !important; margin-left: 2.5rem !important; width:8rem !important; height:8rem !important;}
+  table{max-width: 100%;padding-left: 0; margin-left:-1rem !important;} 
+  table tr td{font-size: 1rem; text-align:center; align-content: center;vertical-align: center;}
   .content h1 {font-size: 2rem; margin-top: 4rem;margin-left:1%;text-align: center;}
   .content{max-width:102%;overflow-x: auto; padding-left:10%; padding-right:10%; margin:auto; height: 100%; position: relative;}
   .content p{ text-align: justify;font-size: 1rem; margin-bottom: -5rem;}
   .nav-bar{align-content: right;}
   img{width:70%;margin-top: 8rem;}
+  #four p{text-align:center;}
   
 }
 .cardContainer {
@@ -514,7 +516,7 @@ main a {
 }
 
 table{
-  font-size: 1.5rem;
+  font-size: 1.5rem; margin-left: -3.5rem;
   font-family: 'Raleway', sans-serif;
 }
 
