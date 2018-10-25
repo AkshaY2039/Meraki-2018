@@ -279,7 +279,9 @@ body {
 #parallax-container {
   color: #FFF;
   background-color: #FD940A;
-  background-image: radial-gradient(circle, #F9A72B 0%, #FA9026 70%, #FB6C1F 100%);
+  /*background-image: radial-gradient(circle, #F9A72B 0%, #FA9026 70%, #FB6C1F 100%);*/
+  background-image: radial-gradient(circle, #007bff 0%, #007bff 70%, #007bff 100%);
+  
 }
 
 #loader-contaner {
